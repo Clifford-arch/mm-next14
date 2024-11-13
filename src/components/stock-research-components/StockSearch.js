@@ -128,6 +128,8 @@ export default function StockSearch(imgUrl) {
               <div className="cearchinput" ref={componentRef}>
                 <div className="input-group">
                   <input
+
+              
                     type="text"
                     className="form-control stiput"
                     id="searchtext_home_desk"
