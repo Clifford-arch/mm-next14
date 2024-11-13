@@ -6,7 +6,7 @@ input:focus-visible{outline:none;}
 *{ margin: 0;padding: 0;box-sizing: border-box;}
 
 body{ padding-top:0px; font-family: 'IBM Plex Sans', sans-serif!important;}
-#stickyheader{ z-index: 999; top: 0;position: fixed; display: block!important;float: left;width: 100%;}
+#stickyheader{ z-index: 9999; top: 0;position: fixed; display: block!important;float: left;width: 100%;}
 .header-wrapper{ width: 98%; margin: 0 auto; display: flex;}
 #mm-header{ font-family: 'IBM Plex Sans', sans-serif !important; z-index: 999; display: -moz-flex;display: -webkit-flex;display: -ms-flex;display: flex;-moz-justify-content: space-between;-webkit-justify-content: space-between;-ms-justify-content: space-between;justify-content: space-between;background-color: #fff;border-bottom: solid 1px rgba(160,160,160,.3);height:64px;left: 0;line-height:64px;position: fixed; padding-top:5px; top: 30px; width: 100%; }
 #mm-header a{text-decoration: none;}

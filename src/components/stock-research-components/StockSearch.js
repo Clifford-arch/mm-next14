@@ -145,7 +145,7 @@ export default function StockSearch(imgUrl) {
                   </div>
 
                   {showSchemesHome && (
-                    <div className="mm-search-wrapper">
+                    <div className="mid-search-wrapper search-conatiner">
                       <div className="mm-search">
                         <div className="filter-top">
                           {headerFilterTypeHome.map((filter) => (
