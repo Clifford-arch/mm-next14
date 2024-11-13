@@ -448,6 +448,16 @@ body{background:#FFFFFF !important;}
 
 
 /* new stock page  css added */
+.mm-search-wrapper{
+	width: 100%;
+	overflow-x: hidden;
+}
+.fund-name{
+	text-align: left;
+}
+.search-for{
+	text-align: left;
+}
 .stock_research_main .cearchinput .search-conatiner{left: 1px; top: 37px !important; width: 100%; overflow-y: hidden;overflow-x: hidden;}
 .stock_research_main .form-control:focus { color: #212529; /* background-color: #fff; */ border-color: #86b7fe; outline: 0; /* box-shadow: 0 0 0 .25rem #0d6efd40; */}
 .youtube_popup_wrap iframe{width: 100%;}
@@ -460,7 +470,9 @@ body{background:#FFFFFF !important;}
 .webainar_thankyou-modal .streport1_1_new{color: white !important;}
 .webainar_thankyou-modal .thtext_new{font-size:24px; font-weight:600;color:#FFFFFF;line-height:28px;text-align:center;padding:20px 0px 20px 0px;}
 .webainar_thankyou-modal .thtext_new2{font-size:20px;color:#FFF;line-height:24px;text-align:center;padding:0px 0px 7px 0px !important;}
-.stock_research_main .cearchinput {display: flex;align-items: center;}
+.stock_research_main .cearchinput {
+	/* display: flex; */
+	align-items: center;}
 .stock_research_main .input-group {display: flex;width: 100%;}
 .stock_research_main .input-group .form-control { flex: 1;}
 .stock_research_main .input-group-btn {display: flex;}
@@ -750,7 +762,7 @@ body{background:#FFFFFF !important;}
  .stock_research_main.maincontent{
 	width: 100%;
     float: left;
-    margin: 100px 0px 0px !important;
+    margin: 50px 0px 0px !important;
     background-color: #FFFFFF;
  }
 .stock_research_main .cearchinput .stiput {

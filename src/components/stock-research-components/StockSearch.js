@@ -100,8 +100,8 @@ export default function StockSearch(imgUrl) {
   };
 
   return (
-    <div
-      className={`maincontent stock_research_main ${
+    <div 
+      className=  {`maincontent stock_research_main ${
         showSchemesHome ? "bmv" : ""
       }`}
     >
@@ -128,8 +128,6 @@ export default function StockSearch(imgUrl) {
               <div className="cearchinput" ref={componentRef}>
                 <div className="input-group">
                   <input
-
-              
                     type="text"
                     className="form-control stiput"
                     id="searchtext_home_desk"
@@ -143,7 +141,11 @@ export default function StockSearch(imgUrl) {
                       <i className="fa fa-search" />
                     </button>
                   </div>
-                  {showSchemesHome && (
+
+                 
+                </div>
+                
+                {showSchemesHome && (
                     <div className="mm-search-wrapper">
                       <div className="mm-search">
                         <div className="filter-top">
@@ -219,7 +221,6 @@ export default function StockSearch(imgUrl) {
                       </div>
                     </div>
                   )}
-                </div>
               </div>
             </div>
           </div>

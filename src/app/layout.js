@@ -22,7 +22,7 @@ export default function RootLayout({ children }) {
       <body>
         <NiftyStickyHeader />
         <Header />
-        <main style={{ marginTop: "10rem", marginBottom: "5rem" }}>
+        <main>
           {children}
         </main>
         <Footer />
