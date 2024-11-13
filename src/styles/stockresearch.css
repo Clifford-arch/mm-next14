@@ -9,6 +9,16 @@ body{background:#FFFFFF !important;}
 
 .maincontent{width:100%; float:left;margin:80px 0px 0px;background-color:#FFFFFF;}
 
+.mojobuttoncontent {
+	width: 100%;
+	float: left;
+	margin: auto;
+	padding: 20px 5% 20px 5% !important;
+}
+
+
+
+
 @media only screen and (min-width:1400px) and (max-width:1600px){
 	.maincontent{margin:80px 0px 0px;}
 }
@@ -114,8 +124,9 @@ body{background:#FFFFFF !important;}
 .faqhead {text-align: center;font-size: 42px;font-weight: 900;padding: 2% 0px 3%;}
 .faqhead2 {text-align: center;font-size:32px;font-weight: 900;padding:15px 0px 0px;}
 .faqhead1 {text-align: center;font-size: 42px;font-weight: 900;padding:8% 0px 0%;}
-.optpaddleft{padding-left:0px;padding-right:0px;}
-.optpaddright{padding-right:0px;}
+.stock_research_main .optpaddleft{padding-left:0px;padding-right:0px;}
+
+.stock_research_main .optpaddright{padding-right:0px;}
 .opbox1{border-top:1px solid #8f8f8f;border-bottom:1px solid #8f8f8f;border-left:1px solid #8f8f8f;padding:15px;height:140px;position:relating;margin-top:77px;}
 .opbox2{border-top:1px solid #8f8f8f;border-bottom:1px solid #8f8f8f;border-left:1px solid #8f8f8f;padding:15px;height:175px;position:relating;top:0;margin-top:42px;}
 .opbox3{padding:15px;height:188px;position:relating;top:0;margin-top:0px;background-color:#4d4d4d;}
@@ -471,7 +482,7 @@ body{background:#FFFFFF !important;}
 .webainar_thankyou-modal .thtext_new{font-size:24px; font-weight:600;color:#FFFFFF;line-height:28px;text-align:center;padding:20px 0px 20px 0px;}
 .webainar_thankyou-modal .thtext_new2{font-size:20px;color:#FFF;line-height:24px;text-align:center;padding:0px 0px 7px 0px !important;}
 .stock_research_main .cearchinput {
-	/* display: flex; */
+	display: flex;
 	align-items: center;}
 .stock_research_main .input-group {display: flex;width: 100%;}
 .stock_research_main .input-group .form-control { flex: 1;}

@@ -140,12 +140,11 @@ export default function StockSearch(imgUrl) {
                     <button className="btn btn-default" type="submit">
                       <i className="fa fa-search" />
                     </button>
+
+
                   </div>
 
-                 
-                </div>
-                
-                {showSchemesHome && (
+                  {showSchemesHome && (
                     <div className="mm-search-wrapper">
                       <div className="mm-search">
                         <div className="filter-top">
@@ -221,6 +220,12 @@ export default function StockSearch(imgUrl) {
                       </div>
                     </div>
                   )}
+
+                
+                </div>
+
+              
+
               </div>
             </div>
           </div>
