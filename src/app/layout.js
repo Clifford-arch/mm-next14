@@ -1,7 +1,8 @@
-import localFont from "next/font/local";
 import "./globals.css";
-import Header from "@/components/header/Header";
+
 import Footer from "@/components/footer/Footer";
+import Header from "@/components/header-component/Header";
+import NiftyStickyHeader from "@/components/header-component/NiftyStickyHeader";
 
 export const metadata = {
   title: "MM-Next14",
@@ -11,9 +12,19 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <head>
+        {" "}
+        <link
+          rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+        />
+      </head>
       <body>
+        <NiftyStickyHeader />
         <Header />
-        {children}
+        <main style={{ marginTop: "10rem", marginBottom: "5rem" }}>
+          {children}
+        </main>
         <Footer />
       </body>
     </html>
