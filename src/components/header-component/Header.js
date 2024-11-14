@@ -1,6 +1,6 @@
 "use client";
 import React, { useState } from "react";
-
+import "@/styles/header.css";
 import MutualFund from "./MutualFund";
 import AtomicPms from "./AtomicPms";
 import InFinHub from "./InFinHub";
