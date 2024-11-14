@@ -621,8 +621,8 @@ const Header = ({
                     />
                   </a>
                 </li>
+                <LoginButton imgUrl={imgUrl} />
               </ul>
-              <LoginButton imgUrl={imgUrl} />
             </nav>
           </div>
         )}
