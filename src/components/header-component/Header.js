@@ -63,12 +63,7 @@ const Header = ({
         {!isSearchOpen && (
           <div className="header-wrapper">
             {!isLoginLoaded && (
-              <button className="openbtnleft" onClick={openMobMenu}>
-                <MobileSidebar
-                  imgUrl="/images/"
-                  logo_img="/images/mm-logo.svg"
-                />
-              </button>
+              <MobileSidebar imgUrl="/images/" logo_img="/images/mm-logo.svg" />
             )}
             <h1>
               <a
