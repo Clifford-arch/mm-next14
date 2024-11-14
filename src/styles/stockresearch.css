@@ -481,7 +481,7 @@ body{background:#FFFFFF !important;}
 
 /* new stock page  css added */
 .mm-search-wrapper{
-	width: 100%;
+	/* width: 100%; */
 	overflow-x: hidden;
 }
 .fund-name{
