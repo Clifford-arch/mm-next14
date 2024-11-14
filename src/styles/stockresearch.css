@@ -132,7 +132,7 @@ body{background:#FFFFFF !important;}
 .faqhead1 {text-align: center;font-size: 42px;font-weight: 900;padding:8% 0px 0%;}
 .stock_research_main .optpaddleft{padding-left:0px;padding-right:0px;}
 
-.stock_research_main .optpaddright{padding-right:0px;}
+.stock_research_main .optpaddright{padding-right:0px; position: relative !important;}
 .opbox1{border-top:1px solid #8f8f8f;border-bottom:1px solid #8f8f8f;border-left:1px solid #8f8f8f;padding:15px;height:140px;position:relating;margin-top:77px;}
 .opbox2{border-top:1px solid #8f8f8f;border-bottom:1px solid #8f8f8f;border-left:1px solid #8f8f8f;padding:15px;height:175px;position:relating;top:0;margin-top:42px;}
 .opbox3{padding:15px;height:188px;position:relating;top:0;margin-top:0px;background-color:#4d4d4d;}
