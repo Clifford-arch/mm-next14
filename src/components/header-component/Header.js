@@ -31,7 +31,7 @@ const Header = ({
     markets: false,
     webinars: false,
   });
-
+  const [isMobMenuOpen, setIsMobMenuOpen] = useState(false);
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
   };
@@ -52,6 +52,10 @@ const Header = ({
     setIsSearchOpen(false);
   };
 
+  const toggleMobileSidebar = () => {
+    setIsMobMenuOpen(!isMobMenuOpen);
+  };
+
   return (
     <>
       <header
@@ -63,7 +67,12 @@ const Header = ({
         {!isSearchOpen && (
           <div className="header-wrapper">
             {!isLoginLoaded && (
-              <MobileSidebar imgUrl="/images/" logo_img="/images/mm-logo.svg" />
+              <button onClick={toggleMobileSidebar} className="openbtnleft">
+                <img
+                  src="https://i.marketsmojo.com/mm-images/mobile-hamburger.svg"
+                  alt="hamburger-menu"
+                />
+              </button>
             )}
             <h1>
               <a
@@ -618,6 +627,12 @@ const Header = ({
           </div>
         )}
       </header>
+      <MobileSidebar
+        isOpen={isMobMenuOpen}
+        onClose={toggleMobileSidebar}
+        currentPage={currentPage}
+        card={card}
+      />
       <SearchOverlay
         isSearchOpen={isSearchOpen}
         onClose={handleCloseSearch}

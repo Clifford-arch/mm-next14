@@ -436,7 +436,6 @@ const NiftyStickyHeader = () => {
       <div className="pull-down">
         {!isStickyCollapsed ? (
           <a
-            href="/"
             id="pullDn"
             onClick={() => {
               setIsStickyCollapsed(true);
@@ -451,14 +450,13 @@ const NiftyStickyHeader = () => {
           </a>
         ) : (
           <a
-            href="/"
             id="pullDn"
             onClick={() => {
               setIsStickyCollapsed(false);
               setRecentVisitedFlag(0);
             }}
           >
-            <img src={`${imgUrl}close_comp.png`} alt="close" />
+            <img src={`https://i.marketsmojo.com/close_comp.png`} alt="close" />
           </a>
         )}
         <div className="pull-sec"></div>
