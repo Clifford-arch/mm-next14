@@ -14,7 +14,7 @@ const MojoArea3 = ({ IMG_URL = "/images/" }) => {
               </p>
             </div>
           </div>
-          <div className="col-lg-6">
+          <div className="col-lg-6 mobile-fixed-text">
             <div className="row">
               <div className="col-lg-6 optpaddright">
                 <div className="dashbox1">
