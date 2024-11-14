@@ -483,6 +483,7 @@ body{background:#FFFFFF !important;}
 .search-for{
 	text-align: left;
 }
+
 .stock_research_main .cearchinput .search-conatiner{left: 1px; top: 37px !important; width: 100%; overflow-y: hidden;overflow-x: hidden;}
 .stock_research_main .form-control:focus { color: #212529; /* background-color: #fff; */ border-color: #86b7fe; outline: 0; /* box-shadow: 0 0 0 .25rem #0d6efd40; */}
 .youtube_popup_wrap iframe{width: 100%;}

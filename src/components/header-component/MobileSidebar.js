@@ -278,7 +278,7 @@ const MobileSidebar = ({ imgUrl, logo_img }) => {
       </div>
 
       {/* Overlay */}
-      <div className="mob-menuright-overlay" onClick={closeMobMenu}></div>
+      {/* <div className="mob-menuright-overlay" onClick={closeMobMenu}></div> */}
     </>
   );
 };
