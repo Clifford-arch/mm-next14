@@ -100,8 +100,8 @@ export default function StockSearch(imgUrl) {
   };
 
   return (
-    <div
-      className={`maincontent stock_research_main ${
+    <div 
+      className=  {`maincontent stock_research_main ${
         showSchemesHome ? "bmv" : ""
       }`}
     >
@@ -140,9 +140,12 @@ export default function StockSearch(imgUrl) {
                     <button className="btn btn-default" type="submit">
                       <i className="fa fa-search" />
                     </button>
+
+
                   </div>
+
                   {showSchemesHome && (
-                    <div className="mm-search-wrapper">
+                    <div className="mid-search-wrapper search-conatiner">
                       <div className="mm-search">
                         <div className="filter-top">
                           {headerFilterTypeHome.map((filter) => (
@@ -217,7 +220,12 @@ export default function StockSearch(imgUrl) {
                       </div>
                     </div>
                   )}
+
+                
                 </div>
+
+              
+
               </div>
             </div>
           </div>
