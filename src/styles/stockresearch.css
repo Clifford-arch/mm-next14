@@ -22,6 +22,7 @@ body{background:#FFFFFF !important;}
 
 
 
+
 @media only screen and (min-width:1400px) and (max-width:1600px){
 	.maincontent{margin:80px 0px 0px;}
 }
@@ -655,7 +656,7 @@ body{background:#FFFFFF !important;}
 /*end */
 
 @media only screen and (min-width:1024px){
-	.stock_research_main .optpaddright{padding-right:0px !important; position: relative;}
+	.stock_research_main .optpaddright{padding-right:0px !important; position: relative !important;}
 .stock_research_main .optpaddleft{padding-left: 0px !important; padding-right: 0px !important;}
 .stock_research_main .searchheadtext {    
 	text-align: center;
